@@ -34,6 +34,7 @@ public class MouseInputHandler : MonoBehaviour
                         break;
                     case "Brick":
                         Destroy(hit.collider.gameObject);
+                        UIman.AddPoints(100);
                         break;
                     default:
                     break;

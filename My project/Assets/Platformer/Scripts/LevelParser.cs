@@ -31,7 +31,7 @@ public class LevelParser : MonoBehaviour
     // --------------------------------------------------------------------------
     private void LoadLevel()
     {
-        string fileToParse = $"{Application.dataPath}{"/Resources/"}{filename}.txt";
+        string fileToParse = $"{Application.dataPath}{"/Resources/"}{filename}1.txt";
         Debug.Log($"Loading level file: {fileToParse}");
 
         Stack<string> levelRows = new Stack<string>();

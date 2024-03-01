@@ -1,12 +1,52 @@
 fileFormatVersion: 2
 guid: daae658e3ae1d8243ac9f1eaeecbfabc
 ModelImporter:
-  serializedVersion: 21202
+  serializedVersion: 22200
   internalIDToNameTable:
   - first:
       74: -623603649343465320
     second: Scene
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: submesh_0
+    second: {fileID: 2100000, guid: 161b2556fe1442144b6dc9ed836ca967, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: submesh_1
+    second: {fileID: 2100000, guid: 59dcb7a1a84703649909092f16254479, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: submesh_2
+    second: {fileID: 2100000, guid: d34df170ca0f96e499301bc6ecc4abae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: submesh_3
+    second: {fileID: 2100000, guid: 4ac167d2e543e80488a08ecbd7c9bf21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: submesh_4
+    second: {fileID: 2100000, guid: 7b5969759bba0d34eb6cea407d147d84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: submesh_5
+    second: {fileID: 2100000, guid: 5754040f20781c44faf29205568c2c5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: submesh_6
+    second: {fileID: 2100000, guid: a2038784c19a16049b8bdba2cc866814, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: submesh_7
+    second: {fileID: 2100000, guid: e40ad57dda9c36d488669df15182cd60, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -43,6 +83,7 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -70,6 +111,7 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -1272,6 +1314,8 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

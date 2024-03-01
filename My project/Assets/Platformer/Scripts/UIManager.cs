@@ -12,6 +12,7 @@ public class UIManager : MonoBehaviour
 
     private int points;
     private int coins;
+    private bool levelFailed = false;
     
     public float level_time = 300; 
     void Start()
@@ -32,13 +33,21 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(level_time > 0) {
+        if(level_time > 0 && !levelFailed) {
             level_time -= Time.deltaTime;
 
             // Display the timer in seconds only
             int seconds = Mathf.FloorToInt(level_time);
             string timerString = seconds.ToString();
             TimeTxt.text = timerString;
+        }
+        if(level_time <= 0 && !levelFailed) {
+            level_time = 0;
+            int seconds = Mathf.FloorToInt(level_time);
+            string timerString = seconds.ToString();
+            TimeTxt.text = timerString;
+            Debug.Log("Times up sorry buddy!");
+            levelFailed = true;
         }
     }
 
